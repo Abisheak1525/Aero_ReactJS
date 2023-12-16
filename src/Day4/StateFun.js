@@ -14,7 +14,7 @@ export default function StateFun()
       <h1>My car brand is {car} </h1>
       <button onClick={changecar} style={{background:"blue"}}>Click me</button>
       <h1>Count {count}</h1>
-      <button onClick={incrcount}style={{background:"green"}}>Increment</button>__
+      <button onClick={incrcount}style={{background:"green"}}>Increment</button>
       <button onClick={decrcount}style={{background:"red"}}>Decrement</button>
     </div>
   )
