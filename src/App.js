@@ -1,14 +1,14 @@
+
 import React from 'react';
-import WithLoading from './components/WithLoading';
-import MyComponent from './components/MyComponent';
-
-const WrappedComponentWithLoading = WithLoading(MyComponent);
-
+import CounterComponent from './Thunk/CounterComponent';
+import { Provider } from 'react-redux';
+import store from './Thunk/store';
 const App = () => {
   return (
     <div>
-      
-      <WrappedComponentWithLoading />
+      <Provider store={store}>
+        <CounterComponent/>
+      </Provider>
     </div>
   );
 };

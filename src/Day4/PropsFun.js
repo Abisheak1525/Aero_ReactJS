@@ -10,4 +10,5 @@ function PropsFun(props)
         </div>
     )
 }
+
 export default PropsFun;
