@@ -1,0 +1,50 @@
+body{
+    height:100%;
+    width: 100%;
+    background-image:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(one.jpg) ;
+    color: white;
+    .error {
+      color: rgb(24, 250, 190);
+    }
+    
+}
+.div1 {
+  background-color: rgb(0, 0, 0);
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  border: 3px solid #000000;
+  border-color: rgb(0, 0, 0);
+  height: auto;
+  width: 500px;
+  margin-left: 500px;
+  margin-top: 30px;
+  border-radius: 8px;
+  background: transparent;
+  border: transparent;
+  backdrop-filter: blur(10px);
+  box-shadow:0 0 30px rgb(3, 3, 3);
+}
+
+.error {
+  color: rgb(255, 0, 0);
+}
+  
+#butten {
+  
+    color: blue;
+}
+.form label {
+    margin-left: 80px;
+    margin-bottom: 10px; 
+    display: block;
+}
+.form input[type="checkbox"],
+.form input[type="radio"] {
+    margin-right: 5px; 
+}
+  
+.form textarea {
+    margin-bottom: 10px; 
+    display: block;
+}
